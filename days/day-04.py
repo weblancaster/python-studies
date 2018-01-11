@@ -23,9 +23,6 @@ def bubble_sort(arr):
                 arr[i + 1] = current
                 arr[i] = right
 
-            if current == right:
-                pass
-
             i += 1
 
     return arr
