@@ -21,3 +21,9 @@ Migrating solshal.com scrapping stack from JS (Scraperjs) to a service where I'm
 
 ### Day 18
 After some experimentation and research I have decided that Scrapy is much more robust than what I need, now I'm experimenting with BeautifulSoup4 and seems like that's what I'm going with for now
+
+### Day 19
+Continued using BeautifulSoup4 and did some more testing to make sure will perform as todays Nodejs scrapper or beter
+
+### Day 20
+Finished up writing the solshal-scrapper service in Python using BeautifulSoup4, next I will move it to Docker
