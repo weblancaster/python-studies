@@ -27,3 +27,7 @@ Continued using BeautifulSoup4 and did some more testing to make sure will perfo
 
 ### Day 20
 Finished up writing the solshal-scrapper service in Python using BeautifulSoup4, next I will move it to Docker
+
+### Day 21
+I haven't been feeling well since last night, painful headache that kept annoying me all day.
+For that reason I'm not spending too much time on computer tonight and decided to only setup the virtualenv  for solshal-scrapper service which was something I haven't done yet.
