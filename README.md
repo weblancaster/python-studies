@@ -31,3 +31,6 @@ Finished up writing the solshal-scrapper service in Python using BeautifulSoup4,
 ### Day 21
 I haven't been feeling well since last night, painful headache that kept annoying me all day.
 For that reason I'm not spending too much time on computer tonight and decided to only setup the virtualenv  for solshal-scrapper service which was something I haven't done yet.
+
+### Day 22
+Today I dockerized the solshal-scrapper written in python and started the integration solshal-app and solshal-scrapper
