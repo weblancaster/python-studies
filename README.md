@@ -34,3 +34,7 @@ For that reason I'm not spending too much time on computer tonight and decided t
 
 ### Day 22
 Today I dockerized the solshal-scrapper written in python and started the integration solshal-app and solshal-scrapper
+
+### Day 23
+Kept working on the integration of the services Solshal and solshal-scrapper, trying some security options and going through some cases python the scrapper can fail
+and how the main will handle the failures
