@@ -4,11 +4,12 @@
 Yes, Yes. Yet another new year resolution if you want to call it that. It's just about time for me to get acclimated to Python.
 I find python being quite a nice language but I never coded any real application, so this is the beginnings.
 
-## Extra
-The list below is to count the days I'm coding in python but not in this repository.
+## Summary
+The list of days below is to log the days I'm coding in python mainly not in this repository.
+The days not logged here are in the commits.
 
 ### day 13
-Started a simple python app hosted on Heroku to sale my motorcycle
+Started a simple python app hosted on Heroku to sell my motorcycle
 [commit](https://github.com/weblancaster/fz09-sale/commit/64baaabb2b03702a03a243d26cb5aeca87d7c79c)
 
 ### Day 14
@@ -42,3 +43,21 @@ and how the main will handle the failures
 ### Day 24
 Finished testing solshal and solshal-scrapper, added solshal-scrapper to docker and released the image on DockerHub.
 Started working on solshal main docker compose file to accommodate solshal-scrapper service
+
+### Day 25
+Update the docker-compose file to accommodate the changes and decided the improve and update the entire docker
+infra and images dependencies.
+Rewriting the scrapper in python made the docker infra much simpler because the node scrapper had some dependencies on native modules 
+
+### Day 26
+Went through some problems updating to latest MongoDB and connecting/linking solshal service to solshal-scrapper service.
+Pushed a minor change to the scrapper service https://github.com/Solshal/solshal-scrapper/pull/1
+
+### Day 27
+Went back to try fixing the linking between solshal and solshal-scrapper when running with docker-compose, still haven't figure it out.
+
+### Day 28
+Started looking at writing solsha-digest service in python, more especifically cron jobs in python.
+
+### Day 29
+Unit tests in python using pytest, at first I just want to run a simple test
