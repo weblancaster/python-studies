@@ -61,3 +61,7 @@ Started looking at writing solsha-digest service in python, more especifically c
 
 ### Day 29
 Unit tests in python using pytest, at first I just want to run a simple test
+
+### Day 30
+Started adding unit test to solshal-scrapper using pytest and I will probably need something to mock methods,
+request lib and flask lib
