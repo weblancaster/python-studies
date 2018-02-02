@@ -26,14 +26,13 @@ def get_students():
         "data": STUDENTS
     })
 
-@app.route("/students/<number:index>")
+@app.route("/students/<int:index>")
 def get_student_by_id(index):
     student = [student for student in STUDENTS if index == student["id"]]
 
     return jsonify({
         "data": student[0]
     })
-
 
 if __name__ == "__main__":
     PORT = os.getenv("PORT", 5000)
