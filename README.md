@@ -65,3 +65,7 @@ Unit tests in python using pytest, at first I just want to run a simple test
 ### Day 30
 Started adding unit test to solshal-scrapper using pytest and I will probably need something to mock methods,
 request lib and flask lib
+
+### Day 33
+Stayed up until late (started the day/night) fixing/improving/updating the docker-compose so the services solshal-web and solshal-scrapper can communicate to each other.
+I also pushed a good amount of improvements/fixes to solshal-scrapper https://github.com/Solshal/solshal-scrapper/pull/2
