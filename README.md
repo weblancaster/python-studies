@@ -24,37 +24,37 @@ Migrating solshal.com scrapping stack from JS (Scraperjs) to a service where I'm
 After some experimentation and research I have decided that Scrapy is much more robust than what I need, now I'm experimenting with BeautifulSoup4 and seems like that's what I'm going with for now
 
 ### Day 19
-Continued using BeautifulSoup4 and did some more testing to make sure will perform as todays Nodejs scrapper or beter
+Continued using BeautifulSoup4 and did some more testing to make sure will perform as todays Nodejs scraper or beter
 
 ### Day 20
-Finished up writing the solshal-scrapper service in Python using BeautifulSoup4, next I will move it to Docker
+Finished up writing the solshal-scraper service in Python using BeautifulSoup4, next I will move it to Docker
 
 ### Day 21
 I haven't been feeling well since last night, painful headache that kept annoying me all day.
-For that reason I'm not spending too much time on computer tonight and decided to only setup the virtualenv  for solshal-scrapper service which was something I haven't done yet.
+For that reason I'm not spending too much time on computer tonight and decided to only setup the virtualenv  for solshal-scraper service which was something I haven't done yet.
 
 ### Day 22
-Today I dockerized the solshal-scrapper written in python and started the integration solshal-app and solshal-scrapper
+Today I dockerized the solshal-scraper written in python and started the integration solshal-app and solshal-scraper
 
 ### Day 23
-Kept working on the integration of the services Solshal and solshal-scrapper, trying some security options and going through some cases python the scrapper can fail
+Kept working on the integration of the services Solshal and solshal-scraper, trying some security options and going through some cases python the scraper can fail
 and how the main will handle the failures
 
 ### Day 24
-Finished testing solshal and solshal-scrapper, added solshal-scrapper to docker and released the image on DockerHub.
-Started working on solshal main docker compose file to accommodate solshal-scrapper service
+Finished testing solshal and solshal-scraper, added solshal-scraper to docker and released the image on DockerHub.
+Started working on solshal main docker compose file to accommodate solshal-scraper service
 
 ### Day 25
 Update the docker-compose file to accommodate the changes and decided the improve and update the entire docker
 infra and images dependencies.
-Rewriting the scrapper in python made the docker infra much simpler because the node scrapper had some dependencies on native modules 
+Rewriting the scraper in python made the docker infra much simpler because the node scraper had some dependencies on native modules 
 
 ### Day 26
-Went through some problems updating to latest MongoDB and connecting/linking solshal service to solshal-scrapper service.
-Pushed a minor change to the scrapper service https://github.com/Solshal/solshal-scrapper/pull/1
+Went through some problems updating to latest MongoDB and connecting/linking solshal service to solshal-scraper service.
+Pushed a minor change to the scraper service https://github.com/Solshal/solshal-scraper/pull/1
 
 ### Day 27
-Went back to try fixing the linking between solshal and solshal-scrapper when running with docker-compose, still haven't figure it out.
+Went back to try fixing the linking between solshal and solshal-scraper when running with docker-compose, still haven't figure it out.
 
 ### Day 28
 Started looking at writing solsha-digest service in python, more especifically cron jobs in python.
@@ -63,9 +63,9 @@ Started looking at writing solsha-digest service in python, more especifically c
 Unit tests in python using pytest, at first I just want to run a simple test
 
 ### Day 30
-Started adding unit test to solshal-scrapper using pytest and I will probably need something to mock methods,
+Started adding unit test to solshal-scraper using pytest and I will probably need something to mock methods,
 request lib and flask lib
 
 ### Day 33
-Stayed up until late (started the day/night) fixing/improving/updating the docker-compose so the services solshal-web and solshal-scrapper can communicate to each other.
-I also pushed a good amount of improvements/fixes to solshal-scrapper https://github.com/Solshal/solshal-scrapper/pull/2
+Stayed up until late (started the day/night) fixing/improving/updating the docker-compose so the services solshal-web and solshal-scraper can communicate to each other.
+I also pushed a good amount of improvements/fixes to solshal-scraper https://github.com/Solshal/solshal-scraper/pull/2
