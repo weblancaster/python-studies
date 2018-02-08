@@ -73,3 +73,6 @@ I also pushed a good amount of improvements/fixes to solshal-scraper https://git
 ### Day 34
 Started building another service in Python for solshal.com, now bookmark importer service where users will be able to import from browsers (Chrome) to Solshal.com.
 This is the setup and start https://github.com/weblancaster/solshal-bookmark-importer.
+
+### Day 35
+Started writing the code to import get the data from chrome and format to Solshal collection format
