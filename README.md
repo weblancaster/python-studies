@@ -76,3 +76,7 @@ This is the setup and start https://github.com/weblancaster/solshal-bookmark-imp
 
 ### Day 35
 Started writing the code to import get the data from chrome and format to Solshal collection format
+
+### Day 36
+Implemented the initial algorithm for solshal-bookmark-importer (https://github.com/weblancaster/solshal-bookmark-importer/pull/1)
+and made some accomodations/changes in main solshal service to utilize solshal-bookmark-importer
