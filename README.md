@@ -80,3 +80,6 @@ Started writing the code to import get the data from chrome and format to Solsha
 ### Day 36
 Implemented the initial algorithm for solshal-bookmark-importer (https://github.com/weblancaster/solshal-bookmark-importer/pull/1)
 and made some accomodations/changes in main solshal service to utilize solshal-bookmark-importer
+
+### Day 37
+Minor improvements to solshal-bookmark-importer service to accommodate implementation in Solshal main service
